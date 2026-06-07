@@ -1,0 +1,11 @@
+Pretrained Model Used:
+
+YOLO11m
+
+Source:
+https://github.com/ultralytics/ultralytics
+
+Model File:
+yolo11m.pt
+
+The model is automatically downloaded by Ultralytics when the application is executed.
