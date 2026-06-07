@@ -6,7 +6,25 @@ https://colab.research.google.com/drive/1jjLoX5L-KbnCCpYgWKDtCGTKEXfq8kLJ#scroll
 
 AI-Based Tourist Verification System using YOLO11 and Gradio.
 
-## Project Workflow
+# Problem Statement
+
+Tour operators and travel agencies frequently face challenges in verifying whether all tourists 
+have returned after visiting tourist destinations such as temples, waterfalls, parks, historical monuments, and restaurants.
+
+Currently, tour guides manually count passengers at every stop, which can be:
+
+- Time-consuming
+- Error-prone
+- Stressful for tour guides
+- Difficult for large groups
+- Risky if a tourist is accidentally left behind
+
+TourGuard AI solves this problem by automatically counting tourists from group photos using YOLO11 object detection 
+and comparing the current tourist count with the original tour count. 
+The system instantly identifies missing or extra persons and generates a verification report.
+
+
+# Project Workflow
 
 Tour Start Photo
 → YOLO11 Person Detection
